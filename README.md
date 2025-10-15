@@ -12,6 +12,27 @@ O objetivo deste trabalho é implementar e analisar o desempenho de diferentes t
 
 ---
 
+## Tecnologias Utilizadas
+- **Linguagem:** Java
+- **Ambiente de execução:** IntelliJ IDEA, Google Colab
+- **Editor utilizado:** IntelliJ IDEA
+
+---
+
+## Estrutura do Projeto
+
+```
+/Projeto Sistema de Implementação e Analise de Tabelas Hash (src)
+├── Main.java
+├── 
+├── 
+├── 
+└── README.md # Documentação do projeto
+```
+
+---
+
+
 ## Licença
 
 Este projeto foi desenvolvido **exclusivamente para fins educacionais** na disciplina de *Resolução de Problemas Estruturados em Computação* da Pontifícia Universidade Católica do Paraná.
