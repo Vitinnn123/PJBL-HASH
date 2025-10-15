@@ -24,9 +24,10 @@ O objetivo deste trabalho é implementar e analisar o desempenho de diferentes t
 ```
 /Projeto Sistema de Implementação e Analise de Tabelas Hash (src)
 ├── Main.java
-├── 
-├── 
-├── 
+├── HashLinear.java
+├──
+├──
+├── Resultados.csv
 └── README.md # Documentação do projeto
 ```
 
