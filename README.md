@@ -12,13 +12,6 @@ O objetivo deste trabalho é implementar e analisar o desempenho de diferentes t
 
 ---
 
-## Tecnologias Utilizadas
-- **Linguagem:** Java
-- **Ambiente de execução:** IntelliJ IDEA, Google Colab
-- **Editor utilizado:** IntelliJ IDEA
-
----
-
 ## Estrutura do Projeto
 
 ```
@@ -44,9 +37,37 @@ O objetivo deste trabalho é implementar e analisar o desempenho de diferentes t
 
 ---
 
-## Gráficos:
+## Tecnologias Utilizadas
+- **Linguagem:** Java
+- **Ambiente de execução:** IntelliJ IDEA, Google Colab
+- **Editor utilizado:** IntelliJ IDEA
 
+---
 
+## Implementações
+- **Hash Duplo:** Usa uma segunda função hash para achar outro índice quando tem colisão.
+- **Hash Quadrático:** Faz novas tentativas de posição usando uma fórmula quadrática.
+- **Hash Encadeado:** Usa listas ligadas para guardar os valores quando acontece colisão.
+
+## Tamanhos Utilizados
+
+- **Tamanhos da Tabela Hash:** 1.000, 10.000 e 100.000 posições.  
+- **Tamanhos dos Conjuntos de Dados:** 100.000, 1.000.000 e 10.000.000 registros.  
+- Todos os dados foram gerados aleatoriamente com *seed fixa* para garantir igualdade de testes.
+
+## Coleta de Dados
+
+Durante os testes, foram coletadas os sequintes dados:
+- **Seed** do teste;
+- Tempo total de **inserção**;
+- Tempo total de **busca**;
+- Número total de **colisões** durante inserção;
+- As **3 maiores listas encadeadas** (no caso de encadeamento);
+- O **menor, maior e valor médio de gap** entre elementos no vetor.
+
+## Análise dos Resultados
+
+## Gráficos
 
 ---
 
