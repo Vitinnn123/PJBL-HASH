@@ -65,10 +65,48 @@ Durante os testes, foram coletadas os sequintes dados:
 - O **menor, maior e valor médio de gap** entre elementos no vetor.
 
 ## Análise dos Resultados
+Hash Encadeado:
+ - Apresentou menos colisões apenas conta quando adiciona à lista, não conta sondagens.
+ - Foi o mais rápido.
+ - Tempo de inserção e busca: excelente na maioria dos casos.
+ - Mais estável em alta ocupação, nunca fica "cheia". 
+ - Único ponto fraco: listas ficam muito longas em casos extremos, mas ainda assim supera os outros.
 
-## Gráficos
 
----
+Hash Quadrático:
+- Teve muito mais colisões que encadeado 
+- Sofreu com aglomeração secundária aumentou tempo médio
+- Desempenho caiu drasticamente em tabelas cheias 
+- Foi ligeiramente melhor que duplo em buscas 
+- Não é boa alternativa em alta ocupação 
+
+
+
+Hash Duplo:
+- Não foi o mais rápido
+- Teve o maior número de colisões
+- Gaps não foram equilibrados, colapsou em alta ocupação
+- Segunda função hash teoricamente dispersa melhor, mas não funciona na prática com alta ocupação
+- Custo da segunda função não foi compensado, performance foi a pior em cenários reais
+
+
+Comparação Geral:
+Hash Encadeado teve o melhor desempenho geral
+- Mais rápido
+- Menos colisões
+- Mais robusto
+- Funciona com qualquer fator de carga
+
+Hash Quadrático ficou em segundo lugar
+- Ligeiramente melhor que duplo
+- Ainda colapsa em alta ocupação
+- Bilhões de colisões
+
+Hash Duplo teve o pior desempenho geral
+- Mais lento na maioria dos casos
+- Colapso catastrófico (até 3.8 horas!)
+- Maior número de colisões
+- Só competitivo em baixíssima ocupação 
 
 ## Licença
 
