@@ -22,17 +22,33 @@ O objetivo deste trabalho é implementar e analisar o desempenho de diferentes t
 ## Estrutura do Projeto
 
 ```
-/Projeto Sistema de Implementação e Analise de Tabelas Hash (src)
-├── Main.java
-├── HashLinear.java
-├──
-├──
-├── Resultados.csv
-└── README.md # Documentação do projeto
+
+/Projeto Sistema de Implementação e Analise de Tabelas Hash
+├── Resultados.csv (Resultados, inserções, buscas, tempo, etc)
+└── README.md (Documentação do projeto)
+  /Código completo comentado(src)
+  ├── Main.java
+  ├── HashDuplo.java
+  ├── HashQuadratico.java
+  ├── HashEncadeado.java
+  ├── Registro.java
+  └── Dados.java
+  /Código completo não comentado(src)
+  ├── Main.java
+  ├── HashDuplo.java
+  ├── HashQuadratico.java
+  ├── HashEncadeado.java
+  ├── Registro.java
+  └── Dados.java
 ```
 
 ---
 
+## Gráficos:
+
+
+
+---
 
 ## Licença
 
