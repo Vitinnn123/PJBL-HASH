@@ -15,7 +15,6 @@ O objetivo deste trabalho é implementar e analisar o desempenho de diferentes t
 ## Estrutura do Projeto
 
 ```
-
 /Projeto Sistema de Implementação e Analise de Tabelas Hash
 ├── Resultados.csv (Resultados, inserções, buscas, tempo, etc)
 └── README.md (Documentação do projeto)
